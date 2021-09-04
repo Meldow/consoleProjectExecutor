@@ -1,0 +1,13 @@
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/bin/Debug/netcoreapp3.1/SampleProjectSolution.deps.json
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/bin/Debug/netcoreapp3.1/SampleProjectSolution.dll
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/bin/Debug/netcoreapp3.1/SampleProjectSolution.pdb
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/bin/Debug/netcoreapp3.1/Common.dll
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/bin/Debug/netcoreapp3.1/Common.pdb
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.csproj.AssemblyReference.cache
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.AssemblyInfoInputs.cache
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.AssemblyInfo.cs
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.csproj.CoreCompileInputs.cache
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.csproj.CopyComplete
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.dll
+/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/Debug/netcoreapp3.1/SampleProjectSolution.pdb

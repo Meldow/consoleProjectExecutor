@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZpzUGUdn/ivbnRUyS2sA0CNb9I/wpffvydeo6x5RSZHWT8HTGCj91tSCe7t2+hCucrkbWRvCKvBvI3lX7QekmQ==",
+  "success": true,
+  "projectFilePath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexandrecosta/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
