@@ -4,11 +4,11 @@ namespace ProjectSelector.ObjectManagement
 
     public class ObjectManager : IObjectManager
     {
-        public List<IObject> Objects { get; set; }
+        public List<IObject> Objects { get; set; } = new List<IObject>();
 
         public void Update()
         {
-            foreach (var o in Objects)
+            foreach (var o in this.Objects)
             {
                 o.Update();
             }

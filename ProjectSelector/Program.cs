@@ -5,30 +5,19 @@
     using System.Threading.Tasks;
     using Common;
     using ProjectSelector.MenuContext;
+    using ProjectSelector.ObjectManagement;
     using SampleProjectSolution;
 
+    /*
+     * Idea:
+     * Register top-level objects with ObjectManager.
+     * This will call main Update() and Draw() on its registered list
+     *
+     * These entities ought to call their own Update() and Draw() to comply with object hierarchy
+     */
     internal static class Program
     {
-        private static List<IProject> projects = new List<IProject>()
-        {
-            new SampleProject(),
-            new SampleProject("Challenge Project 2 - accumsan ante in lacus scelerisque"),
-            new SampleProject("Challenge Project 3 - felis laoreet congue"),
-            new SampleProject("Challenge Project 4 - sodales pharetra risus"),
-            new SampleProject("Challenge Project 5 - dignissim blandit ornare"),
-            new SampleProject("Challenge Project 6 - tempus sapien sed tellus"),
-            new SampleProject("Challenge Project 7 - imperdiet tortor"),
-        };
-
-        private static Menu mainMenu = new Menu(
-            "Main Menu",
-            new List<IMenuItem>()
-            {
-                new MenuItem("First menu item entry"),
-                new MenuItem("Second menu item entry"),
-                new MenuItem("Third menu item entry"),
-                new MenuItem("Fourth menu item entry"),
-            });
+        private static ObjectManager objectManager = new ObjectManager();
 
         private static void Main(string[] args)
         {
@@ -37,18 +26,24 @@
 
         private static async Task MainAsync()
         {
+            RegisterObjects();
+
             LogWelcomeMessage();
-            mainMenu.Select(0);
 
             while (true)
             {
                 Console.Clear();
 
-                mainMenu.Draw();
-                var input = Console.ReadLine();
+                objectManager.Update();
+                objectManager.Draw();
 
-                mainMenu.Select(int.Parse(input));
-                mainMenu.Draw();
+                await Task.Delay(100);
+
+                // mainMenu.Draw();
+                // var input = Console.ReadLine();
+                //
+                // mainMenu.Select(int.Parse(input));
+                // mainMenu.Draw();
 
                 // LogMainOptions();
                 // RequestInstruction();
@@ -69,6 +64,33 @@
             Console.WriteLine("Bye!");
             Console.ReadLine();
         }
+
+        private static void RegisterObjects()
+        {
+            var mainMenu = new Menu(
+                "Main Menu",
+                new List<IMenuItem>()
+                {
+                    new MenuItem("First menu item entry"),
+                    new MenuItem("Second menu item entry"),
+                    new MenuItem("Third menu item entry"),
+                    new MenuItem("Fourth menu item entry"),
+                });
+
+            objectManager.AddObject(mainMenu);
+        }
+
+        private static List<IProject> projects = new List<IProject>()
+        {
+            new SampleProject(),
+            new SampleProject("Challenge Project 2 - accumsan ante in lacus scelerisque"),
+            new SampleProject("Challenge Project 3 - felis laoreet congue"),
+            new SampleProject("Challenge Project 4 - sodales pharetra risus"),
+            new SampleProject("Challenge Project 5 - dignissim blandit ornare"),
+            new SampleProject("Challenge Project 6 - tempus sapien sed tellus"),
+            new SampleProject("Challenge Project 7 - imperdiet tortor"),
+        };
+
 
         private static void LogMainOptions()
         {
