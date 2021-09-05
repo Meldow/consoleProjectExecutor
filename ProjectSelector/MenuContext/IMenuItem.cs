@@ -1,6 +1,8 @@
 namespace ProjectSelector.MenuContext
 {
-    public interface IMenuItem : IMenuObject
+    using ProjectSelector.ObjectManagement;
+
+    public interface IMenuItem : IObject
     {
         public string Text { get; set; }
 

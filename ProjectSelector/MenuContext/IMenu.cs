@@ -1,8 +1,9 @@
 namespace ProjectSelector.MenuContext
 {
     using System.Collections.Generic;
+    using ProjectSelector.ObjectManagement;
 
-    public interface IMenu : IMenuObject
+    public interface IMenu : IObject
     {
         public string Title { get; set; }
 

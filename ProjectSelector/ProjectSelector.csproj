@@ -19,5 +19,6 @@
 
     <ItemGroup>
       <Compile Remove="MenuContext\MenuItemSelected.cs" />
+      <Compile Remove="MenuContext\IMenuObject.cs" />
     </ItemGroup>
 </Project>
