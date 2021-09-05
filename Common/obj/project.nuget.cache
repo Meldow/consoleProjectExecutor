@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpzUGUdn/ivbnRUyS2sA0CNb9I/wpffvydeo6x5RSZHWT8HTGCj91tSCe7t2+hCucrkbWRvCKvBvI3lX7QekmQ==",
+  "dgSpecHash": "1M98FQuSFPmy8Usve8tpxxqV2Hbj6MapXdEGdiAj250HeYZyNeOLCpA++QTQwH29xMNbmMhtyZ1ew7Qgn6WcTg==",
   "success": true,
-  "projectFilePath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj",
+  "projectFilePath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj",
   "expectedPackageFiles": [
     "/Users/alexandrecosta/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
   ],

@@ -8,3 +8,13 @@
 /Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/obj/Debug/netcoreapp3.1/Common.csproj.CoreCompileInputs.cache
 /Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/obj/Debug/netcoreapp3.1/Common.dll
 /Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/obj/Debug/netcoreapp3.1/Common.pdb
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/bin/Debug/netcoreapp3.1/Common.deps.json
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/bin/Debug/netcoreapp3.1/Common.dll
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/bin/Debug/netcoreapp3.1/Common.pdb
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.csproj.AssemblyReference.cache
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.AssemblyInfoInputs.cache
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.AssemblyInfo.cs
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.csproj.CoreCompileInputs.cache
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.dll
+/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/Debug/netcoreapp3.1/Common.pdb

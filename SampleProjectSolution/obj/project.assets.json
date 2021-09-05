@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/SampleProjectSolution.csproj",
+      "projectUniqueName": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/SampleProjectSolution/SampleProjectSolution.csproj",
       "projectName": "SampleProjectSolution",
-      "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/SampleProjectSolution.csproj",
+      "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/SampleProjectSolution/SampleProjectSolution.csproj",
       "packagesPath": "/Users/alexandrecosta/.nuget/packages/",
-      "outputPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/obj/",
+      "outputPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/SampleProjectSolution/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandrecosta/.nuget/NuGet/NuGet.Config"
@@ -80,8 +80,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj": {
-              "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj"
+            "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj": {
+              "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj"
             }
           }
         }

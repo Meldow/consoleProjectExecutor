@@ -45,11 +45,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj",
+      "projectUniqueName": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj",
       "projectName": "Common",
-      "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj",
+      "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj",
       "packagesPath": "/Users/alexandrecosta/.nuget/packages/",
-      "outputPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/obj/",
+      "outputPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandrecosta/.nuget/NuGet/NuGet.Config"

@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/ProjectSelector/ProjectSelector.csproj",
+      "projectUniqueName": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/ProjectSelector/ProjectSelector.csproj",
       "projectName": "ProjectSelector",
-      "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/ProjectSelector/ProjectSelector.csproj",
+      "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/ProjectSelector/ProjectSelector.csproj",
       "packagesPath": "/Users/alexandrecosta/.nuget/packages/",
-      "outputPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/ProjectSelector/obj/",
+      "outputPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/ProjectSelector/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandrecosta/.nuget/NuGet/NuGet.Config"
@@ -99,11 +99,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj": {
-              "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/Common/Common.csproj"
+            "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj": {
+              "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/Common/Common.csproj"
             },
-            "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/SampleProjectSolution.csproj": {
-              "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/ProjectEuler/SampleProjectSolution/SampleProjectSolution.csproj"
+            "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/SampleProjectSolution/SampleProjectSolution.csproj": {
+              "projectPath": "/Users/alexandrecosta/Documents/dev/csharp/consoleProjectExecutor/SampleProjectSolution/SampleProjectSolution.csproj"
             }
           }
         }

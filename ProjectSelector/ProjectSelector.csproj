@@ -16,4 +16,8 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="MenuContext\MenuItemSelected.cs" />
+    </ItemGroup>
 </Project>

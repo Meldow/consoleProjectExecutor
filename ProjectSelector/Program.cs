@@ -2,7 +2,9 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Threading.Tasks;
     using Common;
+    using ProjectSelector.MenuContext;
     using SampleProjectSolution;
 
     internal static class Program
@@ -18,26 +20,50 @@
             new SampleProject("Challenge Project 7 - imperdiet tortor"),
         };
 
+        private static Menu mainMenu = new Menu(
+            "Main Menu",
+            new List<IMenuItem>()
+            {
+                new MenuItem("First menu item entry"),
+                new MenuItem("Second menu item entry"),
+                new MenuItem("Third menu item entry"),
+                new MenuItem("Fourth menu item entry"),
+            });
+
         private static void Main(string[] args)
         {
+            MainAsync().GetAwaiter().GetResult();
+        }
+
+        private static async Task MainAsync()
+        {
             LogWelcomeMessage();
+            mainMenu.Select(0);
 
             while (true)
             {
-                LogMainOptions();
-                RequestInstruction();
+                Console.Clear();
 
-                var userInput = GetNumericInputFromUser();
+                mainMenu.Draw();
+                var input = Console.ReadLine();
 
-                if (userInput == 1)
-                {
-                    LogProjects();
-                }
+                mainMenu.Select(int.Parse(input));
+                mainMenu.Draw();
 
-                if (userInput == 0)
-                {
-                    break;
-                }
+                // LogMainOptions();
+                // RequestInstruction();
+                //
+                // var userInput = GetNumericInputFromUser();
+                //
+                // if (userInput == 1)
+                // {
+                //     LogProjects();
+                // }
+                //
+                // if (userInput == 0)
+                // {
+                //     break;
+                // }
             }
 
             Console.WriteLine("Bye!");
@@ -83,7 +109,7 @@
 
         private static void LogProjects()
         {
-            for (int i = 1; i < projects.Count; i++)
+            for (var i = 1; i < projects.Count; i++)
             {
                 Console.WriteLine($"[{i}] {projects[i]}");
             }
